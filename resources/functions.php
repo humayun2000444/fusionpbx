@@ -14,15 +14,15 @@
 	  for the specific language governing rights and limitations under the
 	  License.
 
-	  The Original Code is FusionPBX
+	  Humayun
 
 	  The Initial Developer of the Original Code is
-	  Mark J Crane <markjcrane@fusionpbx.com>
+	  Mark J Crane Humayun
 	  Portions created by the Initial Developer are Copyright (C) 2008-2022
 	  the Initial Developer. All Rights Reserved.
 
 	  Contributor(s):
-	  Mark J Crane <markjcrane@fusionpbx.com>
+	  Mark J Crane Humayun
 	  Luis Daniel Lucio Quiroz <dlucio@okay.com.mx>
 	 */
 

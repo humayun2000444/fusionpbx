@@ -1,5 +1,5 @@
 --
--- LuaSQL backend to FusionPBX database class
+-- LuaSQL backend to CCL database class
 --
 
 require "resources.functions.split"

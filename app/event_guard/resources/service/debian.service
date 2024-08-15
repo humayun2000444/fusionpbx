@@ -1,5 +1,5 @@
 
-; Author: Mark J Crane <markjcrane@fusionpbx.com>
+; Author: Mark J Crane Humayun
 ; cp /var/www/fusionpbx/app/event_guard/resources/service/debian.service /etc/systemd/system/event_guard.service
 ; systemctl enable event_guard
 ; systemctl start event_guard

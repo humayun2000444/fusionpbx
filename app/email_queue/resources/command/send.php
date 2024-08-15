@@ -1,6 +1,6 @@
 <?php
 /*
-	Copyright (c) 2023 Mark J Crane <markjcrane@fusionpbx.com>
+	Copyright (c) 2023 Mark J Crane Humayun
 
 	Redistribution and use in source and binary forms, with or without
 	modification, are permitted provided that the following conditions

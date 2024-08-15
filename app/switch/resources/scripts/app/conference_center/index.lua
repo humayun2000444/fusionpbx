@@ -1,6 +1,6 @@
 --	conference_center/index.lua
---	Part of FusionPBX
---	Copyright (C) 2013 - 2021 Mark J Crane <markjcrane@fusionpbx.com>
+--	Part of CCL
+--	Copyright (C) 2013 - 2021 Mark J Crane Humayun
 --	All rights reserved.
 --
 --	Redistribution and use in source and binary forms, with or without
@@ -25,7 +25,7 @@
 --	POSSIBILITY OF SUCH DAMAGE.
 --
 --	Contributor(s):
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 --	Luis Daniel Lucio Quiroz <dlucio@okay.com.mx>
 
 --set variables

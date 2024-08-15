@@ -1,5 +1,5 @@
 --
---	FusionPBX
+--	CCL
 --	Version: MPL 1.1
 --
 --	The contents of this file are subject to the Mozilla Public License Version
@@ -12,15 +12,15 @@
 --	for the specific language governing rights and limitations under the
 --	License.
 --
---	The Original Code is FusionPBX
+--	Humayun
 --
 --	The Initial Developer of the Original Code is
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 --	Copyright (C) 2010
 --	All Rights Reserved.
 --
 --	Contributor(s):
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 
 sounds_dir = "";
 pin_number = "";
@@ -40,7 +40,7 @@ if ( session:ready() ) then
 	fifo_lag = session:getVariable("fifo_lag");
 
 	--pin_number = "1234"; --for testing
-	--queue_name = "5900@voip.fusionpbx.com";
+	--queue_name = "5900@voip.CCL.com";
 	--fifo_simo = 1;
 	--fifo_timeout = 10;
 	--fifo_lag = 10;

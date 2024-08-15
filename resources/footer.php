@@ -1,27 +1,10 @@
 <?php
 /*
-	FusionPBX
-	Version: MPL 1.1
+Humayun
 
-	The contents of this file are subject to the Mozilla Public License Version
-	1.1 (the "License"); you may not use this file except in compliance with
-	the License. You may obtain a copy of the License at
-	http://www.mozilla.org/MPL/
+Humayun
 
-	Software distributed under the License is distributed on an "AS IS" basis,
-	WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-	for the specific language governing rights and limitations under the
-	License.
-
-	The Original Code is FusionPBX
-
-	The Initial Developer of the Original Code is
-	Mark J Crane <markjcrane@fusionpbx.com>
-	Portions created by the Initial Developer are Copyright (C) 2008-2022
-	the Initial Developer. All Rights Reserved.
-
-	Contributor(s):
-	Mark J Crane <markjcrane@fusionpbx.com>
+Humayun
 */
 
 //includes files
@@ -151,7 +134,7 @@
 				$settings['theme']['menu_side_toggle_hover_delay_contract'] = isset($settings['theme']['menu_side_toggle_hover_delay_contract']) ? $settings['theme']['menu_side_toggle_hover_delay_contract'] : '1000';
 				$settings['theme']['menu_style'] = !empty($settings['theme']['menu_style']) ? $settings['theme']['menu_style'] : 'fixed';
 				$settings['theme']['menu_position'] = isset($settings['theme']['menu_position']) ? $settings['theme']['menu_position'] : 'top';
-				$settings['theme']['footer'] = isset($settings['theme']['footer']) ? $settings['theme']['footer'] : '&copy; '.$text['theme-label-copyright'].' 2008 - '.date('Y')." <a href='http://www.fusionpbx.com' class='footer' target='_blank'>fusionpbx.com</a> ".$text['theme-label-all_rights_reserved'];
+				$settings['theme']['footer'] = isset($settings['theme']['footer']) ? $settings['theme']['footer'] : '&copy; '.$text['theme-label-copyright'].' 2024 - '.date('Y')." <a href='https://www.cosmocom.net/' class='footer' target='_blank'>cosmocom.net</a> ".$text['theme-label-all_rights_reserved'];
 
 			//assign the setings
 				$view->assign('settings', $settings);

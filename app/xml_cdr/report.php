@@ -1,7 +1,7 @@
 <?php
 
 /*
-        FusionPBX
+        CCL
         Version: MPL 1.1
 
         The contents of this file are subject to the Mozilla Public License Version
@@ -14,7 +14,7 @@
         for the specific language governing rights and limitations under the
         License.
 
-        The Original Code is FusionPBX
+        Humayun
 
         The Initial Developer of the Original Code is
         James Rose <james.o.rose@gmail.com>
@@ -23,7 +23,7 @@
 
         Contributor(s):
         James Rose <james.o.rose@gmail.com>
-        Mark J Crane <markjcrane@fusionpbx.com>
+        Mark J Crane Humayun
 */
 //includes files
 	require_once dirname(__DIR__, 2) . "/resources/require.php";

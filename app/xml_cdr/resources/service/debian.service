@@ -1,4 +1,4 @@
-; Author: Mark J Crane <markjcrane@fusionpbx.com>
+; Author: Mark J Crane Humayun
 ; cp /var/www/fusionpbx/app/xml_cdr/resources/service/debian.service /etc/systemd/system/xml_cdr.service
 ; systemctl enable xml_cdr
 ; systemctl start xml_cdr

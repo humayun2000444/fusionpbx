@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "";
-		$apps[$x]['url'] = "http://www.fusionpbx.com";
+		$apps[$x]['url'] = "http://www.cosmocom.com";
 		$apps[$x]['description']['en-us'] = "";
 		$apps[$x]['description']['en-gb'] = "";
 		$apps[$x]['description']['ar-eg'] = "";

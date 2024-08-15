@@ -8,7 +8,7 @@ class Syslog extends Event_Handler{
 	protected $option;
 	protected $facility;
 	protected $priority;
-	function __construct($ident='fusionpbx', $option=(LOG_PID | LOG_PERROR), $facility=LOG_LOCAL0, $priority=LOG_INFO){
+	function __construct($ident='', $option=(LOG_PID | LOG_PERROR), $facility=LOG_LOCAL0, $priority=LOG_INFO){
 		$this->ident = $ident;
 		$this->option = $option;
 		$this->facility = $facility;

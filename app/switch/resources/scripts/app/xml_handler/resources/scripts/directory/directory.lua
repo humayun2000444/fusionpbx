@@ -1,6 +1,6 @@
 --	xml_handler.lua
---	Part of FusionPBX
---	Copyright (C) 2013 - 2021 Mark J Crane <markjcrane@fusionpbx.com>
+--	Part of CCL
+--	Copyright (C) 2013 - 2021 Mark J Crane Humayun
 --	All rights reserved.
 --
 --	Redistribution and use in source and binary forms, with or without
@@ -25,7 +25,7 @@
 --	POSSIBILITY OF SUCH DAMAGE.
 --
 --	Contributor(s):
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 --	Luis Daniel Lucio Quiroz <dlucio@okay.com.mx>
 
 --set the default
@@ -119,7 +119,7 @@
 				from_user = user
 			end
 
-		-- Check eather we need build dial-string. Before request dial-string FusionPBX set `dialed_extension`
+		-- Check eather we need build dial-string. Before request dial-string CCL set `dialed_extension`
 		-- variable. So if we have no such variable we do not need build dial-string.
 			dialed_extension = params:getHeader("dialed_extension");
 			if (dialed_extension == nil) then

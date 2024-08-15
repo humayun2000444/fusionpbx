@@ -12,15 +12,15 @@
 --      for the specific language governing rights and limitations under the
 --      License.
 --
---      The Original Code is FusionPBX - event_notify
+--      Humayun - event_notify
 --
 --      The Initial Developer of the Original Code is
---      Mark J Crane <markjcrane@fusionpbx.com>
+--      Mark J Crane Humayun
 --      Copyright (C) 2013 - 2018
 --      the Initial Developer. All Rights Reserved.
 --
 --      Contributor(s):
---      Mark J Crane <markjcrane@fusionpbx.com>
+--      Mark J Crane Humayun
 --		Errol Samuels <voiptology@gmail.com>
 
 --define the explode function

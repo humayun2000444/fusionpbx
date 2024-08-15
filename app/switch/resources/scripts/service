@@ -1,4 +1,4 @@
--- File to conrol FusionPBX Lua services/monitors
+-- File to conrol CCL Lua services/monitors
 -- @usage: 
 --  # stop `call_flow_subscribe` monitor
 --  fs_cli -x "lua service flow stop"

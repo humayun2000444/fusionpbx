@@ -1,6 +1,6 @@
 --      xml_handler.lua
---      Part of FusionPBX
---      Copyright (C) 2016-2022 Mark J Crane <markjcrane@fusionpbx.com>
+--      Part of CCL
+--      Copyright (C) 2016-2022 Mark J Crane Humayun
 --      All rights reserved.
 --
 --      Redistribution and use in source and binary forms, with or without

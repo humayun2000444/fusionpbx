@@ -1,5 +1,5 @@
 --
---	FusionPBX
+--	CCL
 --	Version: MPL 1.1
 --
 --	The contents of this file are subject to the Mozilla Public License Version
@@ -12,15 +12,15 @@
 --	for the specific language governing rights and limitations under the
 --	License.
 --
---	The Original Code is FusionPBX
+--	Humayun
 --
 --	The Initial Developer of the Original Code is
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 --	Copyright (C) 2010-2013
 --	the Initial Developer. All Rights Reserved.
 --
 --	Contributor(s):
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 
 --include config.lua
 	require "resources.functions.config";
@@ -61,7 +61,7 @@
 	if (not default_voice) then default_voice = 'callie'; end
 
 --if an extension answer the call
-	-- user_exists id 1005 voip.fusionpbx.com
+	-- user_exists id 1005 voip.CCL.com
 	--		cmd = "user_exists id ".. destination_number .." "..context;
 	--		result = api:executeString(cmd);
 	--		freeswitch.consoleLog("NOTICE", "[confirm] "..cmd.." --"..result.."--\n");

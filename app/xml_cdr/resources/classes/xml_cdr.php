@@ -1,27 +1,15 @@
 <?php
 /*
-	FusionPBX
-	Version: MPL 1.1
+Humayun
 
-	The contents of this file are subject to the Mozilla Public License Version
-	1.1 (the "License"); you may not use this file except in compliance with
-	the License. You may obtain a copy of the License at
-	http://www.mozilla.org/MPL/
-
-	Software distributed under the License is distributed on an "AS IS" basis,
-	WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-	for the specific language governing rights and limitations under the
-	License.
-
-	The Original Code is FusionPBX
+	Humayun
 
 	The Initial Developer of the Original Code is
-	Mark J Crane <markjcrane@fusionpbx.com>
+	Mark J Crane Humayun
 	Portions created by the Initial Developer are Copyright (C) 2016-2023
 	the Initial Developer. All Rights Reserved.
 
-	Contributor(s):
-	Mark J Crane <markjcrane@fusionpbx.com>
+Humayun
 */
 
 /**
@@ -1484,7 +1472,7 @@ if (!class_exists('xml_cdr')) {
 				//if http enabled is set to false then deny access
 					if (!defined('STDIN')) {
 						if ($this->setting->get('cdr', 'http_enabled') == "false") {
-							openlog('FusionPBX', LOG_NDELAY, LOG_AUTH);
+							openlog('CCL', LOG_NDELAY, LOG_AUTH);
 							syslog(LOG_WARNING, '['.$_SERVER['REMOTE_ADDR'].'] XML CDR import default setting http_enabled is not enabled. Line: '.__line__);
 							closelog();
 
@@ -1502,7 +1490,7 @@ if (!class_exists('xml_cdr')) {
 								$this->password = $auth_array[1];
 							}
 							else {
-								openlog('FusionPBX', LOG_NDELAY, LOG_AUTH);
+								openlog('CCL', LOG_NDELAY, LOG_AUTH);
 								syslog(LOG_WARNING, '['.$_SERVER['REMOTE_ADDR'].'] XML CDR import username or password failed. Line: '.__line__);
 								closelog();
 

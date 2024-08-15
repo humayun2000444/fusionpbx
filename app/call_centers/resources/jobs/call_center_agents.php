@@ -112,7 +112,7 @@
 	}
 
 /*
-* * * * * cd /var/www/fusionpbx && php /var/www/fusionpbx/app/call_centers/resources/jobs/call_center_agents.php
+* * * * * cd /var/www/Humayun && php /var/www/fusionpbx/app/call_centers/resources/jobs/call_center_agents.php
 */
 
 ?>

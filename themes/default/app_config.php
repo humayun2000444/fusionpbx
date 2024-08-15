@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
-		$apps[$x]['url'] = "http://www.fusionpbx.com";
+		$apps[$x]['url'] = "http://www.cosmocom.com";
 		$apps[$x]['description']['en-us'] = "Default theme";
 		$apps[$x]['description']['en-gb'] = "Default theme";
 		$apps[$x]['description']['ar-eg'] = "";
@@ -37,7 +37,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
-		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the visibility of the name of the domain currently being managed.";
+		$apps[$x]['default_settings'][$y]['default_seting_description'] = "Set the visibility of the name of the domain currently being managed.";
 		$y++;
 		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "4c8df6ee-5858-40ee-b90f-b3b1d066a91c";
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
@@ -2611,7 +2611,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "title";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "FusionPBX";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "CCL";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Brand used in the browser title bar.";
 

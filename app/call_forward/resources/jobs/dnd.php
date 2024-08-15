@@ -88,6 +88,3 @@
 		trigger_error("Unable to connect to FreeSWITCH using $host, $port, $password", E_USER_ERROR);
 	}
 
-	/*
-	 * * * * * cd /var/www/fusionpbx && php /var/www/fusionpbx/app/call_forward/resources/jobs/dnd.php
-	 */

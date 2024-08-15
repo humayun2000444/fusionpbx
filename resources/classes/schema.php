@@ -1,27 +1,15 @@
 <?php
 /*
-	FusionPBX
-	Version: MPL 1.1
+Humayun
 
-	The contents of this file are subject to the Mozilla Public License Version
-	1.1 (the "License"); you may not use this file except in compliance with
-	the License. You may obtain a copy of the License at
-	http://www.mozilla.org/MPL/
-
-	Software distributed under the License is distributed on an "AS IS" basis,
-	WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-	for the specific language governing rights and limitations under the
-	License.
-
-	The Original Code is FusionPBX
+	Humayun
 
 	The Initial Developer of the Original Code is
-	Mark J Crane <markjcrane@fusionpbx.com>
+	Mark J Crane Humayun
 	Copyright (C) 2013 - 2023
 	All Rights Reserved.
 
-	Contributor(s):
-	Mark J Crane <markjcrane@fusionpbx.com>
+Humayun
 */
 
 //define the schema class
@@ -509,11 +497,11 @@ if (!class_exists('schema')) {
 							// SELECT attname FROM pg_attribute WHERE attrelid = (SELECT oid FROM pg_class WHERE relname = 'v_cdr') AND attname = 'caller_id_name';
 					//mysql
 						//list all tables in the database
-							// SELECT TABLE_NAME FROM information_schema.tables WHERE table_schema = 'fusionpbx'
+							// SELECT TABLE_NAME FROM information_schema.tables WHERE table_schema = 'CCL'
 						//check if table exists
-							// SELECT TABLE_NAME FROM information_schema.tables WHERE table_schema = 'fusionpbx' AND TABLE_NAME = 'v_groups'
+							// SELECT TABLE_NAME FROM information_schema.tables WHERE table_schema = 'CCL' AND TABLE_NAME = 'v_groups'
 						//check if column exists
-							// SELECT * FROM information_schema.COLUMNS where TABLE_SCHEMA = 'fusionpbx' AND TABLE_NAME = 'v_cdr' AND COLUMN_NAME = 'context'
+							// SELECT * FROM information_schema.COLUMNS where TABLE_SCHEMA = 'CCL' AND TABLE_NAME = 'v_cdr' AND COLUMN_NAME = 'context'
 					//oracle
 						//check if table exists
 							// SELECT TABLE_NAME FROM ALL_TABLES

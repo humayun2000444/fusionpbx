@@ -1,6 +1,6 @@
 --
---	FusionPBX - https://www.fusionpbx.com
---	Copyright (C) 2023 Mark J Crane <markjcrane@fusionpbx.com>
+--	CCL - https://www.CCL.com
+--	Copyright (C) 2023 Mark J Crane Humayun
 --
 --	2-Clause BSD License
 --	Redistribution and use in source and binary forms, with or without

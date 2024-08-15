@@ -1,6 +1,6 @@
 --	ivr_menu.lua
---	Part of FusionPBX
---	Copyright (C) 2012-2015 Mark J Crane <markjcrane@fusionpbx.com>
+--	Part of CCL
+--	Copyright (C) 2012-2015 Mark J Crane Humayun
 --	All rights reserved.
 --
 --	Redistribution and use in source and binary forms, with or without

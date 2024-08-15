@@ -1,6 +1,6 @@
 <?php
 /*
- *	FusionPBX
+ *	CCL
  *	Version: MPL 1.1
  *
  *	The contents of this file are subject to the Mozilla Public License Version
@@ -13,15 +13,15 @@
  *	for the specific language governing rights and limitations under the
  *	License.
  *
- *	The Original Code is FusionPBX
+ *	Humayun
  *
  *	The Initial Developer of the Original Code is
- *	Mark J Crane <markjcrane@fusionpbx.com>
+ *	Mark J Crane Humayun
  *	Portions created by the Initial Developer are Copyright (C) 2023
  *	the Initial Developer. All Rights Reserved.
  *
  *	Contributor(s):
- *	Mark J Crane <markjcrane@fusionpbx.com>
+ *	Mark J Crane Humayun
  */
 
 //set the max php execution time

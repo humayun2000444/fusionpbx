@@ -67,7 +67,7 @@ if (!class_exists('install')) {
 				break;
 			case "WIN":
 				$system_drive = getenv('SystemDrive');
-				$config_path = $system_drive . DIRECTORY_SEPARATOR . 'ProgramData' . DIRECTORY_SEPARATOR . 'fusionpbx' ;
+				$config_path = $system_drive . DIRECTORY_SEPARATOR . 'ProgramData' . DIRECTORY_SEPARATOR . 'FusionPBX' ;
 				$config_file = $config_path.DIRECTORY_SEPARATOR.'config.conf';
 				$document_root = $_SERVER["DOCUMENT_ROOT"];
 
@@ -79,7 +79,7 @@ if (!class_exists('install')) {
 				$voicemail_dir = $_SERVER['ProgramFiles'].DIRECTORY_SEPARATOR.'freeswitch'.DIRECTORY_SEPARATOR.'voicemail';
 				$scripts_dir = $_SERVER['ProgramFiles'].DIRECTORY_SEPARATOR.'freeswitch'.DIRECTORY_SEPARATOR.'scripts';
 				$php_dir = dirname(PHP_BINARY);
-				$cache_location = dirname($_SERVER['DOCUMENT_ROOT']).DIRECTORY_SEPARATOR.'cache'.DIRECTORY_SEPARATOR.'fusionpbx';
+				$cache_location = dirname($_SERVER['DOCUMENT_ROOT']).DIRECTORY_SEPARATOR.'cache'.DIRECTORY_SEPARATOR.'FusionPBX';
 				break;
 			}
 

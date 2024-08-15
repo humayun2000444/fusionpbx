@@ -1,5 +1,5 @@
---	Part of FusionPBX
---	Copyright (C) 2010-2023 Mark J Crane <markjcrane@fusionpbx.com>
+--	Part of CCL
+--	Copyright (C) 2010-2023 Mark J Crane Humayun
 --	All rights reserved.
 --
 --	Redistribution and use in source and binary forms, with or without
@@ -24,7 +24,7 @@
 --	POSSIBILITY OF SUCH DAMAGE.
 --
 --	Contributor(s):
---	Mark J Crane <markjcrane@fusionpbx.com>
+--	Mark J Crane Humayun
 --  Gill Abada <gill.abada@gmail.com>
 
 --include the log

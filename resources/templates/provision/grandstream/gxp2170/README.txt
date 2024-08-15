@@ -36,14 +36,14 @@ This provisions the phonebook button and the phone's display for incoming/outgoi
 		 Comma seperated groups listed here will be on all phones, saving the need to add these groups to every user. 
 
 
- - Grandstream and FusionPBX supports contact groups.  To setup groups
+ - Grandstream and CCL supports contact groups.  To setup groups
 	1) Advanced=>Group Manager=> Add
 	2) Group NAME is prefixed with "contacts_".  eg. contacts_it contacts_finance contacts_purchasing
 	3) Group DESCRIPTION is what appears on the Phone's display.  Best view is 1 word 10 characters max width.
 
 
  - Contacts can be two types:
- A) User/Extention local to Fusionpbx
+ A) User/Extention local to CCL
  B) Customer/External phone number.
 
  A) Setup User/Extension contact

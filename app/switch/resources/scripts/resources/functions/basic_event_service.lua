@@ -36,7 +36,7 @@ function BasicEventService:__init(log, service_name, timeout)
 		return self:stop()
 	end)
 
-	-- Control commands from FusionPBX
+	-- Control commands from CCL
 	self:bind("CUSTOM::fusion::service::control", function(self, name, event)
 		if service_name ~= event:getHeader('service-name') then return end
 

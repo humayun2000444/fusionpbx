@@ -540,9 +540,9 @@ else { //default: white
 		<?php } else { ?>
 			background: <?=$menu_main_background_color?>;
 		<?php } ?>
-		-webkit-box-shadow: <?=$menu_main_shadow_color?>;
+		<!-- -webkit-box-shadow: <?=$menu_main_shadow_color?>; -->
 		-moz-box-shadow: <?=$menu_main_shadow_color?>;
-		box-shadow: <?=$menu_main_shadow_color?>;
+		<!-- box-shadow: <?=$menu_main_shadow_color?>; -->
 		border-color: <?=$menu_main_border_color?>;
 		border-width: <?=$menu_main_border_size?>;
 		-moz-border-radius: <?=$menu_main_border_radius?>;
@@ -550,12 +550,15 @@ else { //default: white
 		-khtml-border-radius: <?=$menu_main_border_radius?>;
 		border-radius: <?=$menu_main_border_radius?>;
 		padding: 0;
+		border-bottom:1px solid #d8d8d9;
 		}
-
+		nav.navbar.navbar-expand-sm.fixed-top{
+			height: 65px;
+		}
 	/* main menu logo */
 	img.navbar-logo {
 		border: none;
-		height: 27px;
+		height: 40px;
 		width: auto;
 		padding: 0 10px 0 7px;
 		margin-top: -2px;
@@ -579,8 +582,9 @@ else { //default: white
 	ul.navbar-nav > li.nav-item > a.nav-link {
 		font-family: <?=$menu_main_text_font?>;
 		font-size: <?=$menu_main_text_size?>;
+		font-weight:500;
 		color: <?=$menu_main_text_color?>;
-		padding: 15px 10px 14px 10px; !important;
+		padding: 22px 10px 22px 10px; !important;
 		}
 
 	ul.navbar-nav > li.nav-item:hover > a.nav-link,
@@ -670,9 +674,15 @@ else { //default: white
 		font-family: <?=$menu_main_text_font?>;
 		font-size: <?=$menu_main_text_size?>;
 		color: <?=$menu_main_text_color?>;
+		font-weight:500;
 		padding: 10px;
+		border: 1px solid #174678;
+    	border-radius: 100px;
 		}
-
+	ul.navbar-nav > li.nav-item > a.header_domain:hover{
+		background:#174678;
+		color:#fff !important;
+		}
 	ul.navbar-nav > li.nav-item:hover > a.header_user,
 	ul.navbar-nav > li.nav-item:focus > a.header_user,
 	ul.navbar-nav > li.nav-item:active > a.header_user {
@@ -987,7 +997,7 @@ else { //default: white
 		height: <?=$button_height?>;
 		padding: <?=$button_padding?>;
 		border: <?=$button_border_size?> solid <?=$button_border_color?>;
-		<?php $br = format_border_radius($button_border_radius, '3px'); ?>
+		<?php $br = format_border_radius($button_border_radius, '100px'); ?>
 		-moz-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-webkit-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-khtml-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
@@ -1055,7 +1065,7 @@ else { //default: white
 		padding: 2px;
 		margin: 1px;
 		border: <?=$button_border_size?> solid <?=$button_border_color?>;
-		<?php $br = format_border_radius($button_border_radius, '3px'); ?>
+		<?php $br = format_border_radius($button_border_radius, '100px'); ?>
 		-moz-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-webkit-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-khtml-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
@@ -1490,7 +1500,7 @@ else { //default: white
 				switch ($menu_position) {
 					case 'bottom': $body_top_style = "margin-top: 30px;"; break;
 					case 'top':
-					default: $body_top_style = "margin-top: 65px;"; break;
+					default: $body_top_style = "margin-top: 80px;"; break;
 				}
 		}
 	?>
@@ -1509,9 +1519,12 @@ else { //default: white
 			-khtml-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 			border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 			<?php unset($br); ?>
-			-webkit-box-shadow: <?=$body_shadow_color?>;
+			<!-- -webkit-box-shadow: <?=$body_shadow_color?>;
 			-moz-box-shadow: <?=$body_shadow_color?>;
-			box-shadow: <?=$body_shadow_color?>;
+			box-shadow: <?=$body_shadow_color?>; -->
+			-webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+			-moz-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 			padding: 20px;
 			<?php
 		}
@@ -1636,7 +1649,7 @@ else { //default: white
 		}
 		unset($shadows);
 		?>
-		<?php $br = format_border_radius($input_border_radius, '3px'); ?>
+		<?php $br = format_border_radius($input_border_radius, '100px'); ?>
 		-moz-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-webkit-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-khtml-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
@@ -2927,7 +2940,7 @@ else { //default: white
 				break;
 			case 'fixed':
 			default:
-				$action_bar_top = '49px';
+				$action_bar_top = '70px';
 		}
 		?>
 		top: <?php echo $action_bar_top; ?>;

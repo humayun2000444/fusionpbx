@@ -33,7 +33,7 @@ function vm_message_count(account, use_cache)
 	local id, domain_name = split_first(account, '@', true)
 	if not domain_name then return end
 
-	-- FusionPBX support only numeric voicemail id
+	-- CCL support only numeric voicemail id
 	if not tonumber(id) then
 		log.warningf('non numeric voicemail id: %s', id)
 		return
