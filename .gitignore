@@ -1,0 +1,5 @@
+app/rest_api/
+*.log
+*.tmp
+*.swp
+.DS_Store
